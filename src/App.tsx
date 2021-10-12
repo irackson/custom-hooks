@@ -3,18 +3,18 @@ import 'App.scss';
 import { TimeoutComponent } from 'components/TimeoutComponent';
 import { DebounceComponent } from 'components/DebounceComponent';
 import { UpdateEffectComponent } from 'components/UpdateEffectComponent';
+import { ArrayComponent } from 'components/ArrayComponent';
 
 function App() {
     return (
         <div className="App">
-            {/* <ToggleComponent></ToggleComponent> */}
-            {/* <TimeoutComponent></TimeoutComponent> */}
-            {/* <DebounceComponent></DebounceComponent> */}
-            <UpdateEffectComponent></UpdateEffectComponent>
+            {/* <ToggleComponent/> */}
+            {/* <TimeoutComponent/> */}
+            {/* <DebounceComponent/> */}
+            {/* <UpdateEffectComponent/> */}
+            <ArrayComponent />
         </div>
     );
 }
 
 export default App;
-// test commit 1
-// test commit 2
